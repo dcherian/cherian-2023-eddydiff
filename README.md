@@ -13,7 +13,7 @@ The current subsets should prove useful for comparisons in the NATRE region.
 |--------------------------------|------------------------------------------------------------------------------------------------------------------|
 | `cole-clim-gradient-natre.nc`  | time mean conservative temperature and absolute salinity in $σ$ Space                                            |
 | `cole-natre.nc`                | Cole et al (2015) dataset subset to NATRE region                                                                 |
-| `ecco-climatology-natre.nc`    |                                                                                                                  |
+| `ecco-climatology-natre.nc`    | Mean over ECCO simulation period of GM-Redi χ terms and state variables.                                         |
 | `groeskamp-natre.nc`           | Groeskamp et al (2020) dataset subset to NATRE region                                                            |
 | `natre-density-binned.nc`      | NATRE microstructure data processed to yield estimates in neutral density bins following Ferrari & Polzin (2005) |
 | `pop-1-month1.nc`              | POP 1° mean profile in NATRE region for first month of simulation                                                |
