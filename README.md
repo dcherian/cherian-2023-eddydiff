@@ -9,7 +9,6 @@ We are exploring approaches to provide more useful fields.
 The current subsets should prove useful for comparisons in the NATRE region.
 
 ## Datasets
-|--------------------------------|------------------------------------------------------------------------------------------------------------------|
 | Filename                       | Description                                                                                                      |
 |--------------------------------|------------------------------------------------------------------------------------------------------------------|
 | `cole-clim-gradient-natre.nc`  | time mean conservative temperature and absolute salinity in $σ$ Space                                            |
@@ -21,5 +20,3 @@ The current subsets should prove useful for comparisons in the NATRE region.
 | `pop-1-spinup-natre.nc`        | POP 1° mean profile in NATRE region as decadal means for the first cycle (or 60 years) of simulation             |
 | `pop-110-climatology-natre.nc` | POP 1/10° mean state variables                                                                                   |
 | `pop-110-variance-natre.nc`    | POP1/10° variance budget terms from Guo et al (2022)                                                             |
-|--------------------------------|------------------------------------------------------------------------------------------------------------------|
-
