@@ -8,6 +8,8 @@ We are exploring approaches to provide more useful fields.
 
 The current subsets should prove useful for comparisons in the NATRE region.
 
+For an idea of how the subset were produced see `dataset-processing.ipynb`
+
 ## Datasets
 | Filename                       | Description                                                                                                      |
 |--------------------------------|------------------------------------------------------------------------------------------------------------------|
