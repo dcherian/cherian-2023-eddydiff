@@ -1,0 +1,103 @@
+name: eddydiff-release
+channels:
+  - conda-forge
+  - pyviz
+dependencies:
+### misc python
+  - mamba
+  - pip
+  - line_profiler
+  - memory_profiler
+  - pytest
+  - pytest-xdist
+  - snakeviz
+  - tqdm
+  - watermark
+  - rich
+  - gitpython
+### linters
+  - black
+  - ruff
+  - pre-commit
+  - mypy
+### matplotlib
+  - cartopy
+  - cmocean
+  - colorcet
+  - ipympl
+  - ipywidgets
+  - matplotlib
+  - nc-time-axis
+  - viscm
+### holoviews
+  - bokeh
+  - datashader
+  - geoviews
+  - holoviews
+  - hvplot
+  - panel
+  - pyviz_comms
+### dask
+  - cachey
+  - dask
+  - dask-jobqueue
+  - distributed
+  - ncar-jobqueue
+  - python-graphviz
+### jupyter / ipython
+  - ipdb
+  - ipython
+  - jupyter
+  - jupyter-book
+  - jupyterlab
+  - jupyterlab_code_formatter
+  - jupyterlab-myst
+  - jupyter-server-proxy
+  - nbconvert
+  - nbdime
+  - nbformat
+  - notebook
+  - qtconsole
+### io
+  - netcdf4
+  - h5netcdf
+  - h5py
+  - zarr
+### xarray
+  - bottleneck
+  - xarray-datatree
+  - flox
+  - cftime
+  - cf_xarray
+  - pint-xarray
+  - xarray
+  - xesmf
+  - xoak
+  - xrft
+  - xgcm
+  - xhistogram
+  - xmitgcm
+### oceanography
+  - gsw
+  - seawater
+  - gsw-xarray
+### scientific python
+  - numpy
+  - pandas<2
+  - scipy
+  - seaborn
+### project specific
+  - arch-py
+  - netcdf-fortran  # pygamma
+  - clang  # pygamma
+  - pop-tools
+### for ecco
+  - geos
+  - pyresample
+  - setuptools
+###  pip stuff
+  - pip:
+    - ecco_v4_py
+    - git+https://github.com/dcherian/eddydiff@v0.2
+    - git+https://github.com/dcherian/dcpy@v0.3
+    - git+https://github.com/dcherian/xfilter
